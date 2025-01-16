@@ -1,0 +1,9 @@
+lazy-lock.json
+plugin/
+luac.out
+*.lua.*.un~
+*.lua.un~
+*~
+*.swp
+*.swo
+*.log

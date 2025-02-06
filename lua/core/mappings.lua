@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-
 local keymap = vim.keymap
 
 keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
@@ -12,6 +11,8 @@ keymap.set("n", "<leader>a", "ggVG", { noremap = true, silent = true })
 keymap.set('n', '<leader>t1', '<cmd>1ToggleTerm<CR>', {noremap = true, silent = true})
 keymap.set('n', '<leader>t2', '<cmd>2ToggleTerm<CR>', {noremap = true, silent = true})
 keymap.set('n', '<leader>t3', '<cmd>3ToggleTerm<CR>', {noremap = true, silent = true})
+
+keymap.set("i", "<C-BS>", "<C-W>", { noremap = true, silent = true })
 
 keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>", { noremap = true, silent = true }) 
 keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>", { noremap = true, silent = true })

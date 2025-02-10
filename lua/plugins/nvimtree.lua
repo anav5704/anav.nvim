@@ -39,7 +39,7 @@ return {
                 end,
             },
             renderer = {
-                add_trailing = false,
+                add_trailing = true,
                 group_empty = true,
                 highlight_git = true,
                 highlight_modified = "name",
@@ -48,7 +48,6 @@ return {
                 root_folder_modifier = ":~",
                 indent_width = 4,
                 icons = {
-
                     show = {
                         git = false,
                         folder = false,

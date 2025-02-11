@@ -5,6 +5,8 @@ keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { noremap = true, silent = t
 keymap.set('n', '<leader>l', ':Lazy<CR>', { noremap = true, silent = true })
 keymap.set('n', '<leader>m', ':Mason<CR>', { noremap = true, silent = true })
 keymap.set('n', '<leader>g', ':LazyGit<CR>', { noremap = true, silent = true })
+keymap.set('n', '<leader>hr', ':Gitsigns reset_hunk<CR>', { noremap = true, silent = true })
+keymap.set('n', '<leader>hp', ':Gitsigns preview_hunk<CR>', { noremap = true, silent = true })
 keymap.set('n', '<leader>f', ':Telescope find_files<CR>', { noremap = true, silent = true })
 keymap.set('v', '<leader>s', ':Silicon<CR>', { noremap = true, silent = true })
 keymap.set('n', '<leader>q', ':bd<CR>', { noremap = true, silent = true })

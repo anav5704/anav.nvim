@@ -23,12 +23,18 @@ return {
             })
 
             local capabilities = require('cmp_nvim_lsp').default_capabilities()
-
             local lspconfig = require('lspconfig')
+
+            vim.api.nvim_set_hl(0, "SignColumn", { bg = "NONE" })
 
             for _, server in ipairs(servers) do
                 lspconfig[server].setup {
                     capabilities = capabilities,
+                    on_attach = function(client, bufnr)
+                        vim.diagnostic.config({
+                            signs = false,
+                        })
+                    end,
                 }
             end
         end,

@@ -12,15 +12,10 @@ This is my web development Neovim config, all written in lua. The `lua/core` dir
 - Multiple terminals (toggleterm)
 - Version control (lazygit)
 - Save progress (auto sessions)
-- Database client (coming soon)
-- Find and replace (coming soon)
-- Container managment (coming soon)
-- Project managment (coming soon)
-- Typing test (coming soon)
 
 ## Getting Started
 
-Requirements: Neovim >= v0.8, Git, Docker, Node, Golang, Python < v3.12, Rust, PostgreSQL.
+Requirements: Neovim >= v0.8, Git, Docker, Silicon, Node, Golang, Python < v3.12, Rust, PostgreSQL.
 
 Clone the repository into your Neovim configuration directory by running the following command:
 
@@ -29,10 +24,25 @@ Clone the repository into your Neovim configuration directory by running the fol
 git clone https://github.com/anav5704/anav.nvim.git ~/.config/nvim
 
 # Windows
-git clone https://github.com/anav5704/anav.nvim.git C:\Users\username\AppData\Local\nvim
+git clone https://github.com/anav5704/anav.nvim.git C:/Users/username/AppData/Local/nvim
 ```
 When you open Neovim, the package manager will install all the required plugins and dependencies for your setup.
- 
+
+If you are on Windows, you will have to add the following code to your terminals `settings.json`:
+
+```json
+{
+    "actions": [
+        {
+            "keys": "ctrl+space",
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[32;5u"
+            }
+        }
+    ]
+}
+```
 ## Learning Resources
 
 - [Neovim in 100 seconds](https://youtu.be/c4OyfL5o7DU)

@@ -2,6 +2,9 @@
 
 This is my web development Neovim config, all written in lua. The `lua/core` directory holds the main global config, while the `lua/plugins` directory holds the config for each plugin. All plugins open in a floating window and the theme used is Gruvbox.
 
+
+[demo.webm](https://github.com/user-attachments/assets/310131b2-75e7-4829-a7ef-34ff901aa67e)
+
 ## Features
 
 - File explorer (nvimtree)

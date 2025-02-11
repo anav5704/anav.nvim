@@ -10,7 +10,7 @@ This is my web development Neovim config, all written in lua. The `lua/core` dir
 - Autocomplete (lspconfig + nvimcmp)
 - AI completion (GitHub copilot)
 - Multiple terminals (toggleterm)
-- Version control (lazygit)
+- Version control (lazygit + gitsigns)
 - Save progress (auto sessions)
 
 ## Getting Started

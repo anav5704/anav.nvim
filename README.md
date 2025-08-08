@@ -18,7 +18,7 @@ This is my web development Neovim config, all written in lua. The `lua/core` dir
 
 ## Getting Started
 
-Requirements: Neovim, Git, Docker, Silicon, Node, Golang, Python, Rust.
+Requirements: Neovim, Git, Docker, NPM, GCC, Golang, Python, Cargo, Maven, OpenJDK.
 
 Clone the repository into your Neovim configuration directory by running the following command:
 

@@ -8,7 +8,7 @@ return {
             'williamboman/mason-lspconfig.nvim',
         },
         config = function()
-            local servers = { "bashls", "lua_ls", "vimls", "clangd", "ts_ls", "gopls", "jsonls", "cssls", "html", "tailwindcss" , "astro", "svelte", "prismals", "marksman", "dockerls", "docker_compose_language_service", "nginx_language_server", "ansiblels", "terraformls", "sqls", "emmet_ls", "eslint", "gitlab_ci_ls"}
+            local servers = { "bashls", "lua_ls", "vimls", "clangd", "ts_ls", "jdtls", "gopls", "jsonls", "cssls", "html", "tailwindcss" , "astro", "svelte", "prismals", "marksman", "phpactor", "intelephense", "dockerls", "docker_compose_language_service", "nginx_language_server", "ansiblels", "terraformls", "sqls", "emmet_ls", "eslint", "gitlab_ci_ls"}
 
             require('mason').setup({
                 ui = {

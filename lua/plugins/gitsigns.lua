@@ -30,8 +30,7 @@ return {
                 relative = "cursor",
                 row = 0,
                 col = 1
-            },
-            yadm = { enable = false },
+            }
         })
     end,
 }
